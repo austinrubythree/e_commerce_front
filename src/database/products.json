@@ -1,0 +1,120 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Sony WH-CH700N",
+            "description": ["Noise cancellation adjusts to your environment with One Push AINC",
+                "Long lasting listening with up to 35 hours of battery and quick charging", 
+                "Wireless Bluetooth streaming with NFC one-touch", "Customize your sound as you like with the “Sony | headphones "],
+            "keybords": ["sony", "headphone", "wireless"],
+            "price": 79.99,
+            "count": 0,
+            "image": ["81-5VFufp4L._SL1500_.jpg","91VBHn10ROL._SL1500_.jpg"]
+        },
+        {
+            "id": 2,
+            "name": "Alexa Voice Remote for Amazon Echo",
+            "description":["Official remote for Echo Plus, Echo (1st and 2nd generation), Echo Dot, Echo Show, and Echo Spot",
+                "Connects to Echo products via Bluetooth", 
+                "Includes an integrated microphone for when you are too far away or it's too noisy for Echo to hear you"],
+            "keybords": ["Alexa", "Amazon", "Voice"],
+            "price": 19.99,
+            "count": 0,
+            "image": ["61w8bahQ6nL._SL1500_.jpg", "613f-uxWrjL._SL1500_.jpg" ]
+        },
+        {
+            "id": 3,
+            "name": "Echo Show - 1st Generation White",
+            "description": ["Echo Show brings you everything you love about Alexa, and now she can show you things. Watch video flash briefings, Amazon Video content, see music lyrics, security cameras, photos, weather forecasts, to-do and shopping lists, browse and listen to Audible audiobooks, and more. All hands-free—just ask.",
+                "Call almost anyone hands-free, or make video calls to family and friends with an Echo Spot, Echo Show, or the Alexa App. Instantly connect to other Echo devices around your home.", 
+                "See lyrics on-screen with Amazon Music. Just ask to play a song, artist or genre, and stream over Wi-Fi. Also, stream music on Pandora, Spotify, TuneIn, iHeartRadio, and more."],
+            "keybords": ["echo", "show", "white"],
+            "price": 129.99,
+            "count": 0,
+            "image":["61OddH8ddDL._SL1000_.jpg", "711CdJtBJ4L._SL1000_.jpg"]
+        },
+        {
+            "id": 4,
+            "name": "EXPO Low Odor Dry Erase Markers, Chisel Tip, Assorted Colors, 36 Pack",
+            "description": ["Expo Low-Odor Dry Erase Markers, Chisel Tip, 36-Pack, Assorted Colors (1921061)",
+                "Bright, vivid, non-toxic ink is quick-drying, smear-proof, easy to see from a distance, and provides consistent color quality.", 
+                "Erases cleanly and easily with a dry cloth or Expo eraser.", "nk is specially formulated to be low-odor. Perfect for use in classrooms, small offices, and homes."],
+            "keybords": ["expo", "erase", "dry"],
+            "price": 18,
+            "count": 0,
+            "image": ["81kaNV033VL._SL1500_.jpg","91G3Jd9xi4L._SL1500_.jpg"]
+        },
+        {
+            "id": 5,
+            "name": "USB Charger, Anker 2-Pack Dual Port 12W Wall Charger with Foldable Plug",
+            "description": ["Exclusive Technology: Anker's world-famous PowerIQ detects your devices and adjusts voltage output accordingly, delivering a tailored, optimized charge.",
+                "Simultaneous Charging: Charge any 2 devices at the same time; phones, tablets, headphones, portable chargers, and more", 
+                "Simultaneous Charging: Charge any 2 devices at the same time; phones, tablets, headphones, portable chargers, and more. Travel Ready: Smaller than a golf ball, and equipped with a foldable plug, this charger is the ultimate travel companion.", 
+                "Superior Safety: Anker's MultiProtect 11-point safety system provides all-round protection for you and your devices. "],
+            "keybords": ["anker", "charger", "USB"],
+            "price": 12.99,
+            "count": 0,
+            "image": ["310fWIn7SUL.jpg", "41k+4ss1kEL.jpg"]
+        },
+        {
+            "id": 6,
+            "name": "iPhone 8 Plus, 7 Plus, 6S Plus, 6 Plus Screen Protector, amFilm Tempered Glass Screen Protector ",
+            "description": ["Specifically designed for iPhone 8 Plus, 7 Plus, 6S Plus, iPhone 6 Plus 3D Touch Compatible",
+                "Ultra-clear with 99.9% transparency to allow an optimal, natural viewing experience", 
+                "Ultra thin-0.3mm thickness is reliable and resiliant, and promises full compatibility with touchscreen sensitivity",
+                 "Highly durable, and scratch resistant - surface hardness 9H and topped with oleophobic coating to reduce fingerprints."],
+            "keybords": ["screen", "protector", "iphone"],
+            "price": 7.99,
+            "count": 0,
+            "image": ["81uNg0365iL._SL1500_.jpg", "810tZ0JvIGL._SL1500_.jpg"]
+        },
+        {
+            "id": 7,
+            "name": "Portable Charger 32000 RAVPower 32000mAh Power Banks 6A Output",
+            "description": ["11 Days of Power: Gigantic 32000mAh capacity charges an iPhone X 7.1 times, Galaxy S8 for 6.4 times, iPad mini 4.3 times, or an iPad Pro for 1.8 times.",
+                "60% Faster Recharge: Halve charging time by using a DC 5V/2A or DC 5V/2.4A AC charger", 
+                "3 iSmart 2.0 USB Ports: Charge up to 3 devices simultaneously with a total current output of 6A (2.4A max per port); note: portable charger does not support Qualcomm Quick Charge",
+                 "Premium, Tested Quality: High-density Li-polymer cells are protected by a UL94 V-0 fire & UV resistant casing; power bank features overcharge, over-discharge, and short circuit protections "],
+            "keybords": ["power", "bank", "portable"],
+            "price": 79.99,
+            "count": 0,
+            "image": ["510PWKPklJL._SL1000_.jpg", "61H2PaWb6bL._SL1000_.jpg"]
+        },
+        {
+            "id": 8,
+            "name": "AstroAI Digital Multimeter with Ohm Volt Amp and Diode Voltage Tester Meter",
+            "description": ["Check out our VIDEO on the left side and take a quick tour of AstroAI Multimeter! ACCURATELY MEASURES: Voltage, DC current, resistance, diode, continuity and more",
+                "TROUBLESHOOTS: Automotive and household electrical problems safely and accurately", 
+                "EASE OF USE: Data hold and large digital display with backlit LCD for visibility in dimly light areas", 
+                "1 Year Warranty by AstroAI"],
+            "keybords": ["astro", "tester", "meter"],
+            "price": 8.40,
+            "count": 0,
+            "image": ["71MTO+c9tfL._SL1500_.jpg", "61NwWjI94HL._SL1000_.jpg"]
+        },
+        {
+            "id": 9,
+            "name": "1Mii B03 Long Range Bluetooth 4.2 Transmitter Receiver Bluetooth Audio Adapter Bluetooth Transmitter",
+            "description": ["【LONG RANGE & DUAL ANTENNAS】Utilizing Class 1 Bluetooth technology and dual antennas design, 1Mii B03 Bluetooth transmitter receiver can achieve a range of up to 230ft (70m) line-of-sight in open air and up to 80-110ft (25-35m) indoors. *NOTE: Operation range can be affected by Wi-Fi routers, Wireless TV adapters etc. and also depends on receiving device.",
+                "NO LIP SYNC DELAY&DUAL STREAM】AptX Low Latency technology eliminate Bluetooth audio delay, Long Range adapter 1Mii B03 with 2 links, Pair with 2 pcs of Bluetooth headphones or 2 pcs of Bluetooth speakers & BOTH enjoy ultra fast, high fidelity audio. *NOTE: To achieve low latency, your receiving device must also support AptX Low Latency; Don't support AptX-LL under Dual-link, when 2 units B03 connect with each only support AptX-HD.", 
+                "OPTICAL & AUXS】Supports both analog (RCA / 3.5mm AUX audio) and digital (optical) input and output! *NOTE: Please set your TV audio as PCM format as 1Mii B03 doesn’t support Dolby / DTS format in optical mode.", 
+                "【EASY SETUP, EASY USE, FAST MEMORY CONNECTION】Easy plug, pair and play. This updated unit comes with a USB power adapter. Plug the Digital Optical / 3.5 mm or RCA cable into the jack of computer speakers, home stereo systems or other speaker systems, pairing with the Bluetooth audio devices like Earphones, smartphones or tablet. Enjoy it after that. It will auto re-connect the Bluetooth headphones/ speakers and stream audio at once for the next use."],
+            "keybords": ["bluetooth", "transmitter", "receiver"],
+            "price": 39.99,
+            "count": 0,
+            "image": ["51-JvRwDUfL._SL1000_.jpg", "614VvHa2nnL._SL1000_.jpg"]
+        },
+        {
+            "id": 10,
+            "name": "Tactical Flashlight, WdtPro XML-T6 Ultra Bright Tac Light Flashlights with 5 Modes",
+            "description": ["ADVANCED DESIGN: IP65-rated water resistant and designed for use in heavy rain. Its durable aluminum body and shock-resistance endure rough handling.",
+                "Flashlights High Lumens: High-Efficiency and Great Output LED Chip, super bright flash light with 5 modes(High / Medium / Low / Strobe / SOS).", 
+                "ADJUSTABLE FOCUS: Intense Spotlight for long range observation can up to 600 feet, Circle Floodlight for large area illumination. LEDs boast an extended 100,000-hour lifespan.", 
+                "AS SEEN ON TV–BUT AT HALF THE PRICE – Same tac light flashlight as seen on TV, commercials, and shopping network–but at half the price."],
+            "keybords": ["flashlight", "tactical", "bright"],
+            "price": 12.59,
+            "count": 0,
+            "image": ["718mF2jnrpL._SL1500_.jpg", "61Hv3jHeg-L._SL1500_.jpg"]
+        }
+    ]
+}
