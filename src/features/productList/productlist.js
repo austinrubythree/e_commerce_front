@@ -12,7 +12,7 @@ export default function ProductItem(props) {
         <img
           height={150}
           title={props.product.name}
-          src={`/products/${props.product.image[1]}`}
+          src={`/products/${JSON.parse(props.product.image)[0]}`}
         />
       <li>${props.product.price}</li>
       </ul>

@@ -1,34 +1,52 @@
-import React from "react";
-import Grid from "@material-ui/core/Grid";
+import React, { Component } from "react";
 import ProductItem from "./productlist";
 import { connect } from "react-redux";
 
-function Productlisting(props) {
 
-  // filter this in between proudct and search keywords.
-  let filteredProducts = props.products;
-  if(props.search.searchTerm){
-    filteredProducts = filteredProducts.filter(
-      (product) => {
-        return product.name.toLowerCase().indexOf(
-          props.search.searchTerm.toLowerCase()) !== -1;
-          }
-        )
+class Productlisting extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      products: props.products,
+      search: ''
+    }
   }
-  return (
-    // filteredContacts
-    <div className="product_list">
-      {filteredProducts.map(product => (
-        <ProductItem
-          key={product.id}
-          product={product}
-          addToCart={props.addToCart}
-          removeFromCart={props.removeFromCart}
-          cartItem={props.cart.filter(cartItem => cartItem.id === product.id)[0]}
-        />
-      ))}
-    </div>
-  );
+  // filter this in between proudct and search keywords.
+  componentDidMount(props){
+    this.props.search.searchTerm = ''
+
+  }
+
+  // if(this.state.search.searchTerm){
+  //   filteredProducts = filteredProducts.filter(
+  //     (product) => {
+  //       return product.name.toLowerCase().indexOf(
+  //         props.search.searchTerm.toLowerCase()) !== -1;
+  //         }
+  //       )
+  // }
+  render(){
+    let filteredProducts = this.props.products
+    return (
+      // filteredContacts
+      
+      // <div className="product_list">
+      //        {this.props.products.map(product =>      
+      //   <li>{product.id} {product.name} ${product.price} {product.description}</li>
+      //        )}
+      <div className="product_list">
+        {this.props.products.map(product => (
+          <ProductItem
+            key={product.id}
+            product={product}
+            addToCart={this.props.addToCart}
+            removeFromCart={this.props.removeFromCart}
+            cartItem={this.props.cart.filter(cartItem => cartItem.id === product.id)[0]}
+          />
+        ))}
+      </div>
+    );
+  }
 }
 
 function mapStateToProps(state) {
