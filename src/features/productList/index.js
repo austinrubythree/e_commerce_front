@@ -7,35 +7,27 @@ class Productlisting extends Component {
   constructor(props){
     super(props);
     this.state = {
-      products: props.products,
-      search: ''
+      products: props.products
     }
   }
   // filter this in between proudct and search keywords.
-  componentDidMount(props){
-    this.props.search.searchTerm = ''
+  
 
-  }
-
-  // if(this.state.search.searchTerm){
-  //   filteredProducts = filteredProducts.filter(
-  //     (product) => {
-  //       return product.name.toLowerCase().indexOf(
-  //         props.search.searchTerm.toLowerCase()) !== -1;
-  //         }
-  //       )
-  // }
   render(){
-    let filteredProducts = this.props.products
+     //this is to filter items 
+    let filteredProducts = this.props.products;
+    console.log('line 18 index',filteredProducts)
+    if (this.props.search.searchTerm) {
+      filteredProducts = filteredProducts.filter(
+        (product) => {
+          return product.name.toLowerCase().indexOf(
+            this.props.search.searchTerm.toLowerCase()) !== -1;
+        }
+      )
+    }
     return (
-      // filteredContacts
-      
-      // <div className="product_list">
-      //        {this.props.products.map(product =>      
-      //   <li>{product.id} {product.name} ${product.price} {product.description}</li>
-      //        )}
       <div className="product_list">
-        {this.props.products.map(product => (
+        {filteredProducts.map(product => (
           <ProductItem
             key={product.id}
             product={product}

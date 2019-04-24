@@ -48,7 +48,7 @@ render (){
             <h2 style={{textAlign:"left"}}>Cart</h2>
         <Row className="show-grid">
     <Col md={8} style={{paddingRight:'1px'}}>
-    <ShoppingCart />`
+    <ShoppingCart />
     </Col>
 
     <Col md={4} style={{paddingLeft:'1px'}}>

@@ -32,7 +32,7 @@ function Cart (props) {
                         <img 
                             height = { 100 }
                             title = {item.name}
-                            src = {`/products/${item.image[0]}`}
+                            src = {`/products/${JSON.parse(item.image)[0]}`}
                     />
                     </td>
                     
